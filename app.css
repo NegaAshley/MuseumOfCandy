@@ -1,0 +1,51 @@
+body {
+    background: #f5d9df;
+    font-family: "Nunito", sans-serif;
+}
+
+#mainNavbar{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link{
+    color: white;
+}
+
+#mainNavbar .nav-link:hover{
+    color: #ea1c2c;
+}
+
+#mainNavbar .navbar-brand{
+    color: #ea1c2c;
+    font-size: 1.5rem;
+}
+
+.textSlash{
+    color: #ea1c2c;
+}
+
+.museumRepeatText{
+    font-size: 4.0rem;
+    font-weight: 100;
+}
+
+.standardHeader{
+    font-size: 2.5rem;
+    font-weight: 100;
+    color: #ea1c2c;
+}
+
+.standardParagraph{
+    color: #f498b8;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2.0;
+}
+
+@media (max-width: 1280px){
+    .museumRepeatText {
+        font-size: 3.0rem;
+        font-weight: 100;
+    }
+}
